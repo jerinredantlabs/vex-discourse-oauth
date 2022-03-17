@@ -1,6 +1,6 @@
 class CreateVexLicenses < ActiveRecord::Migration[6.1]
   def change
-    create_table :vex_licenses do |t|
+    create_table :vex_licenses, if_not_exists: true do |t|
       t.bigint :vex_id
       t.string :key
       t.string :expires_at
