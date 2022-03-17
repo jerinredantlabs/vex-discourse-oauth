@@ -1,0 +1,34 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+de:
+  login:
+    authenticator_error_fetch_user_details: "Konnte die Benutzer-Details nicht laden. Hast du ein aktives Konto?"
+  site_settings:
+    oauth2_enabled: "Benutzerdefiniertes OAuth2 ist aktiviert"
+    oauth2_client_id: 'Kundennummer für benutzerdefiniertes OAuth2'
+    oauth2_client_secret: 'Kundengeheimnis für benutzerdefiniertes OAuth2'
+    oauth2_authorize_url: 'Autorisierungs-URL für OAuth2'
+    oauth2_token_url: 'Token-URL für OAuth2'
+    oauth2_token_url_method: 'Methode, mit der die Token-URL aufgerufen wird'
+    oauth2_callback_user_id_path: 'Pfad in der Token-Antwort zur Benutzer-ID. Beispiel: params.info.uuid'
+    oauth2_callback_user_info_paths: 'Pfad in der Token-Antwort zu den Benutzer-Eigenschaften. Unterstützte Eigenschaften sind name, username, email, email_verified und avatar. Format ist Eigenschaft:Pfad, z.B.: name:params.info.name'
+    oauth2_fetch_user_details: "Hole Benutzer JSON für OAuth2"
+    oauth2_user_json_url: 'URL, um Benutzer-JSON für OAuth2 abzrufen (beachte, dass wir :id mit der ID ersetzen, die vom OAuth-Aufruf geliefert wird, und :token mit der Token-ID)'
+    oauth2_user_json_url_method: 'Methode, mit der die Benutzer-JSON-URL aufgerufen wird'
+    oauth2_json_user_id_path: 'Pfad im OAuth2-Benutzer-JSON zur Benutzer-ID. Beispiel: user.id'
+    oauth2_json_username_path: 'Pfad im OAuth2-Benutzer-JSON zum Benutzername. Beispiel: user.username'
+    oauth2_email_verified: "Prüfe, ob die OAuth2-Seite die E-Mail-Adresse verifiziert hat"
+    oauth2_overrides_email: "Überschreibe die Discourse E-Mail bei jedem Einloggen mit der Remote E-Mail"
+    oauth2_send_auth_header: "Client-Anmeldedaten in einem HTTP-Autorisierungs-Header senden"
+    oauth2_debug_auth: "Ausführliche Informationen zur Fehlerbehebung in Protokolle aufnhemen"
+    oauth2_authorize_options: "Bei der Autorisierung folgende Optionen anfordern"
+    oauth2_scope: "Bei der Autorisierung folgenden Scope anfordern"
+    oauth2_button_title: "Der Text für die OAuth2 Schaltfläche"
+    oauth2_allow_association_change: Benutzern erlauben, ihre Discourse Konten beim OAuth2 Lieferanten abzutrennen und wieder zu verbinden
+    oauth2_disable_csrf: "CSRF-Prüfung deaktivieren"
+    errors:
+      oauth2_fetch_user_details: "oauth2_callback_user_id_path muss vorhanden sein um oauth2_fetch_user_details zu deaktivieren"
